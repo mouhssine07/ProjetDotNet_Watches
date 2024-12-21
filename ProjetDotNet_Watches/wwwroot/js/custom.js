@@ -6,8 +6,6 @@ function getYear() {
 }
 
 getYear();
-
-
 /** google_map js **/
 function myMap() {
     var mapProp = {
