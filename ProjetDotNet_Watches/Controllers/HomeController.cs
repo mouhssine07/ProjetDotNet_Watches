@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using ProjetDotNet_Watches.Models;
 using System.Diagnostics;
 
@@ -14,6 +15,26 @@ namespace ProjetDotNet_Watches.Controllers
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Product()
+        {
+            return View();
+        }
+
+        public IActionResult Testimonial()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
         {
             return View();
         }
